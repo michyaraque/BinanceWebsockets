@@ -1,0 +1,79 @@
+@media (min-width: 768px) {
+    .popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+body {
+    background-color: rgb(20, 21, 26);
+    color: #d6d5d5;
+}
+
+.text-gray {
+    color: #d6d5d5;
+}
+
+.card {
+    border-color: #202129;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+    background-color: rgba(30, 32, 38, 0.498);
+}
+
+.modal-header,
+.card-header {
+    border-bottom: 1px solid #202129;
+}
+
+.modal-content {
+    background-color: rgba(30, 32, 38, 1);
+}
+
+.card-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: transparent;
+}
+
+.card .card-body {
+    padding: 20px;
+    background: transparent;
+    border-radius: 15px;
+}
+
+.form-control,
+.input-group>.form-control:focus,
+.input-group-text {
+    background-color: rgb(37, 39, 45, 1);
+    border: 1px solid #2f3035;
+    color: #fff;
+}
+
+.input-group-text {
+    color: #fff;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
