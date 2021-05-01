@@ -15,7 +15,7 @@ var currencies = [{
         change: 'usdt',
         type: 'aggTrade'
     }, {
-        crypto_name: 'hot',
+        crypto_name: 'eth',
         change: 'usdt',
         type: 'aggTrade'
     },
