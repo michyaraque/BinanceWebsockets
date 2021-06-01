@@ -4,7 +4,7 @@
 
 <p align="center">
   <p align="center">
-    <a href="https://michydev.github.io/BinanceWebsockets/">View Demo</a>
+    <a href="https://michyaraque.github.io/BinanceWebsockets/">View Demo</a>
   </p>
 </p>
 
